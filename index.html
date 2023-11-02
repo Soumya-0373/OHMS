@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OHMS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+   <!-- unicons -->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   <!-- AOS -->
+   <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hotel"></i>OHMS</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#offer">Offers</a>
+            <a href="#about">About</a>
+            <a href="#faq">Contact Us</a>
+            <a class="btn" id="form-open">Login</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <section class="home" id="home" data-aos="fade-in" data-aos-duration="1000">
+        <div class="form_container">
+            <i class="uil uil-times form_close"></i>
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter Your Password" required>
+                        <i class="uil uil-lock password"></i>
+                    </div>
+
+                    <div class="option-field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot Password?</a>
+                    </div>
+                    <button class="btn">Login Now</button>
+                    <div class="login_signup">Don't Have an Account?
+                        <a href="#" id="signup">Signup</a>
+                    </div>
+                </form>
+            </div>
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Register Yourself</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your Name" required>
+                        <i class="uil uil-user user"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create Your Password" required>
+                        <i class="uil uil-lock password"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm Your Password" required>
+                        <i class="uil uil-lock password"></i>
+                    </div>
+                    <button class="btn">Sign-up Now</button>
+                    <div class="login_signup">Already Have an Account?
+                        <a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Make Your Holidays Special With US</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero atque repudiandae reiciendis a cum vitae odit voluptatibus corrupti obcaecati quasi, adipisci numquam ipsum? Soluta consequatur explicabo tempore iusto reiciendis accusantium ducimus quod illum architecto iure inventore facere, modi, obcaecati labore. At vitae eaque maxime voluptatum repellendus aliquam qui provident ratione?</p>
+                        <a href="#" class="btn">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Find The Best Hotels</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero atque repudiandae reiciendis a cum vitae odit voluptatibus corrupti obcaecati quasi, adipisci numquam ipsum? Soluta consequatur explicabo tempore iusto reiciendis accusantium ducimus quod illum architecto iure inventore facere, modi, obcaecati labore. At vitae eaque maxime voluptatum repellendus aliquam qui provident ratione?</p>
+                        <a href="#" class="btn">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Make Your Holidays Special With US</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero atque repudiandae reiciendis a cum vitae odit voluptatibus corrupti obcaecati quasi, adipisci numquam ipsum? Soluta consequatur explicabo tempore iusto reiciendis accusantium ducimus quod illum architecto iure inventore facere, modi, obcaecati labore. At vitae eaque maxime voluptatum repellendus aliquam qui provident ratione?</p>
+                        <a href="#" class="btn">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Make Your Holidays Special With US</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero atque repudiandae reiciendis a cum vitae odit voluptatibus corrupti obcaecati quasi, adipisci numquam ipsum? Soluta consequatur explicabo tempore iusto reiciendis accusantium ducimus quod illum architecto iure inventore facere, modi, obcaecati labore. At vitae eaque maxime voluptatum repellendus aliquam qui provident ratione?</p>
+                        <a href="#" class="btn">Explore More</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="room-availvl">
+        <form action="" data-aos="zoom-in">
+            <div class="box">
+                <p>Check-in <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+            <div class="box">
+                <p>Check-out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Place<span>*</span></p>
+                <select name="place" id="" class="input">
+                    <option value="1">Goa</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Kashmir</option>
+                    <option value="4">Mumbai</option>
+                    <option value="5">Kerala</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Price Per Night<span>*</span></p>
+                <select name="price" id="" class="input">
+                    <option value="1">₹0-₹5,000</option>
+                    <option value="2">₹5,000-₹10,000</option>
+                    <option value="3">₹10,000-₹20,000</option>
+                    <option value="4">₹20,000-₹40,000</option>
+                    <option value="5">₹40,000 and above</option>
+                </select>
+            </div>
+            
+            <div class="box">
+                <p>Number of Rooms<span>*</span></p>
+                <select name="rooms" id="" class="input">
+                    <option value="1">1 Room</option>
+                    <option value="2">2 Room</option>
+                    <option value="3">3 Room</option>
+                    <option value="4">4 Room</option>
+                    <option value="5">5 Room</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Guests<span>*</span></p>
+                <select name="adults" id="" class="input">
+                    <option value="1">1 Adult</option>
+                    <option value="2">2 Adult</option>
+                    <option value="3">3 Adult</option>
+                    <option value="4">4 Adult</option>
+                    <option value="5">5 Adult</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Show Rooms" class="btn">
+        </form>
+    </section>
+
+    <section class="offer" id="offer">
+        <h1 class="heading">Our Offers</h1>
+        <div class="swiper offer-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1100" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1400" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1700" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1900" data-aos-once="true">
+                    <div class="image">
+                        <img src="images/room-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Offer</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium optio quos quia exercitationem animi minus ipsam consequatur minima asperiores?</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <h1 class="heading"  data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">About Us</h1>
+    <section class="about" id="about">
+        
+        <div class="row" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+            <div class="image">
+                <img src="images/about.jpg" alt="" data-aos="slide-right" data-aos-duration="1000" data-aos-once="true">
+            </div>
+            <div class="content" data-aos="slide-left" data-aos-once="true" >
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sunt ipsum alias exercitationem reprehenderit commodi dignissimos assumenda ea! Ut quisquam molestiae consequuntur soluta iste alias in delectus totam, eligendi, vel, a laborum numquam perferendis maxime praesentium ad vitae ipsam placeat libero aperiam exercitationem sint cupiditate? Vel numquam amet est, quisquam exercitationem minima doloribus quo modi laboriosam tenetur quod esse sapiente neque corporis sequi, accusamus voluptate quaerat? Aliquam sit accusantium fuga rem iste ea maiores, velit obcaecati corporis. Dolores repudiandae accusantium provident, consectetur in tempore. Hic in ea accusamus asperiores autem libero ducimus facere possimus, tenetur dicta, nemo consectetur maxime neque!
+                </p>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, consequatur dicta praesentium iste aliquid ipsa aperiam repellat? Velit, nobis dolore facere fugit rerum hic ducimus eligendi laboriosam deleniti modi voluptatum.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <h1 class="heading" data-aos="zoom-in" data-aos-duration="800"  data-aos-once="true">Client's Review</h1>        
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>Pijush Das</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="900" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Mohor Banarjee</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Debayan Dutta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1100" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>Archita Kundu</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-5.png" alt="">
+                        <div class="user-info">
+                            <h3>Ayaan Mondal</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-full-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+
+                <div class="swiper-slide slide" data-aos="zoom-in" data-aos-duration="1300" data-aos-once="true">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-6.png" alt="">
+                        <div class="user-info">
+                            <h3>Anushka Banar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet necessitatibus accusantium quisquam ratione corporis id impedit similique perferendis fuga, temporibus, explicabo esse praesentium consequuntur ducimus? Saepe aliquam necessitatibus corrupti consequuntur.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="faqs" id="faq">
+        <h1 class="heading" data-aos="zoom-in" data-aos-once="true">Contact Us </h1>
+
+        <div class="row">
+            <div class="contact_us" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1100">
+                <form action="">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Email id" required>
+                    <input type="text" id="phone" placeholder="Phone no." required>
+                    <textarea id="message" rows="4" placeholder="Need Help?! Feel Free to Ask!"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+            <div class="content">
+                <div class="box" data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="900">
+                    <h3>Q. How to book a hotel online with OHMS?</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam molestiae maiores, eveniet laudantium quam nobis amet rerum ipsum illum dicta!</p>
+                </div>
+                <div class="box" data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="1200">
+                    <h3>Q. How to find the cheapest hotel deals in any city</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam molestiae maiores, eveniet laudantium quam nobis amet rerum ipsum illum dicta!</p>
+                </div>
+                <div class="box" data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="1500">
+                    <h3>Q. What are Payment Methods?!</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam molestiae maiores, eveniet laudantium quam nobis amet rerum ipsum illum dicta!</p>
+                </div>
+                <div class="box" data-aos="zoom-in-left" data-aos-once="true" data-aos-duration="1800">
+                    <h3>Q. Where can I find current deals and offers of OHMS?!</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam molestiae maiores, eveniet laudantium quam nobis amet rerum ipsum illum dicta!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+91 9432063424</a>
+                <a href="#"><i class="fas fa-envelope"></i>soumyadeepdas0302@gmail.com</a>
+                <a href="#"><i class="fas fa-location"></i>Westbengal,Kolkata</a>
+
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">&copy; copyright @ 2023 by <span>Soumya</span></div>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
+    <!-- <script src="contact.js"></script> -->
+</body>
+
+</html>
